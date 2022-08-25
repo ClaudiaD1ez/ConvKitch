@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -6,7 +7,6 @@
 .general{
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     /* border: 5px solid blue; */
     height: 99vh;
@@ -23,67 +23,89 @@
     margin: 0.2%;
 }
 
+.frigo img{
+    /* width: 335px;
+    height: 695px; */
+    height: 80%;
+    /* border: 5px solid rgb(0, 255, 200); */
+    /* margin-right: 2%; */
+}
+
 .resto{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* border: 5px solid red; */
-    width: 75%;
+    width: 65%;
     height: 90%;
 }
 
 .titulo {
     display: flex;
     flex-direction: row;
-    /* justify-content:space-between; */
     margin-top: 1%;
+    height: 50%;
+    width: 100%;
     /* border: 5px solid green; */
+}
+
+.campana {
+    height: 80%;
+    width: 70;
+}
+.campana img{
+    height: 80%;
+}
+
+.mano{
+    height: 85%;
+    width: 30%;
+}
+.mano img{
+    /* width: 281.06px;
+    height: 250.7px; */
+    height: 60%;
+    margin-left: 45%;
 }
 
 .cocina {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    height: 50%;
     /* border: 5px solid yellow; */
 }
 
-.frigo img{
-    /* width: 335px;
-    height: 695px; */
-    /* height: 50rem; */
-    /* border: 5px solid rgb(0, 255, 200); */
-    /* margin-right: 2%; */
+.vino{
+    height: 85%;
 }
-
-.campana img{
-    /* border: 5px solid rgb(0, 255, 200); */
-}
-
-.mano img{
-    /* width: 281.06px;
-    height: 250.7px; */
-    /* height: 18rem; */
-    margin-left: 45%;
-}
-
 .vino img{
     /* width: 155px;
     height: 381px; */
     /* border: 5px solid rgb(106, 0, 255); */
     margin-left: 1%;
+    height: 100%;
+}
+
+.horno{
+    height: 95%;
 }
 
 .horno img{
     /* width: 327px;
-    height: 443px; */
     /* border: 5px solid rgb(0, 255, 64); */
     margin-left: 2%;
     margin-right: 2%;
+    height: 100%; 
+}
+
+.fregadero{
+    height: 95%;
 }
 
 .fregadero img{
     /* width: 333px;
-    height: 453px; */
     /* border: 5px solid rgb(255, 123, 0); */
     margin-left: 3%;
+    height: 100%; 
 }
